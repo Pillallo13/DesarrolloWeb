@@ -10,7 +10,7 @@ function run() {
 
         for (let i = 0; i < peliculas.length; i++) {
 
-                console.log("NOMBBRE: " + peliculas[i].name + " ID: " + peliculas[i].id + " PREMIOS: " + peliculas[i].awards + " DURACION: " + peliculas[i].length + " minutos" + " PRECIO: $" + peliculas[i].price + "COP GENERO: " + peliculas[i].genre)
+                console.table("NOMBBRE: " + peliculas[i].name + " ID: " + peliculas[i].id + " PREMIOS: " + peliculas[i].awards + " DURACION: " + peliculas[i].length + " minutos" + " PRECIO: $" + peliculas[i].price + "COP GENERO: " + peliculas[i].genre)
 
         }
 };
