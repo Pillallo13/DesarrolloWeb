@@ -1,6 +1,6 @@
 // Desafio 1 - Sebastian Quintero Jaimes 
 
-let nequi = [50000, -20000, 6000, -18000];
+let nequi = [50, -20000, 6000, -18000];
 
 function banco(nequi) {
     //El metodo filter nos da dos sub arrays para saber cuales son depositos y cuales son depositos
